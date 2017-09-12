@@ -40,6 +40,7 @@
 
 ;; (process-links initial-state)
 
+;; Hardcode 20 interations for now. TODO implement "stablization" function to terminate 
 (defn rank
   [initial-state links]
   (loop [x 20 pr initial-state]
